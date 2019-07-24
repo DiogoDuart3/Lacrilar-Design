@@ -1,17 +1,114 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
 
 $primaryColor: #e2211c;
 $secondaryColor: #111111;
 $backgroundColor: #f7f7f7;
 
-h1{
-    font-family: 'Poppins Bold', sans-serif;
-    font-size: 40pt;
-    color: $secondaryColor;
-    letter-spacing: 20pt;
-    line-height: 50pt;
+html {
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundColor;
 }
 
-h2{
-    
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: $secondaryColor;
+}
+
+h1 h2 h3 h4 {
+  letter-spacing: 20pt;
+}
+
+h1 {
+  font-size: 40pt;
+  line-height: 50pt;
+}
+
+h2 {
+  font-size: 37pt;
+  line-height: 49pt;
+}
+
+h3 {
+  font-size: 30pt;
+  line-height: 39pt;
+}
+
+h4 {
+  font-size: 20pt;
+  line-height: 29pt;
+}
+
+h5 {
+  font-size: 17pt;
+  letter-spacing: 100pt;
+  line-height: 26pt;
+}
+
+h6 {
+  font-size: 15pt;
+  letter-spacing: 60pt;
+  line-height: 26pt;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -moz-box-shadow: 0px 40px 34px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 25px 38px -45px rgba(0, 0, 0, 0.35);
+  padding: 0;
+  padding-bottom: 15pt;
+  text-transform: uppercase;
+
+  ul {
+    text-align: center;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 6%;
+    li {
+      display: inline;
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      font-size: 11pt;
+      letter-spacing: 1.2pt;
+      a {
+        color: $secondaryColor;
+        text-decoration: none;
+        margin: 0 1%
+      }
+    }
+  }
+
+  #logo {
+    float: left;
+  }
+
+  #menu {
+    padding-top: 42pt;
+    text-align: center;
+  }
+
+  #icon_menu {
+      margin-left: 10pt;
+      img{
+          height: 16pt;
+      }
+      li{
+          .arrow{
+              height: 6pt;
+              margin-bottom: 4pt;
+          }
+      }
+  }
+  
 }

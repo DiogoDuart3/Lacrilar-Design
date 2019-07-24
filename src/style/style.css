@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #111111;
+}
+
+h1 h2 h3 h4 {
+  letter-spacing: 20pt;
+}
+
+h1 {
+  font-size: 40pt;
+  line-height: 50pt;
+}
+
+h2 {
+  font-size: 37pt;
+  line-height: 49pt;
+}
+
+h3 {
+  font-size: 30pt;
+  line-height: 39pt;
+}
+
+h4 {
+  font-size: 20pt;
+  line-height: 29pt;
+}
+
+h5 {
+  font-size: 17pt;
+  letter-spacing: 100pt;
+  line-height: 26pt;
+}
+
+h6 {
+  font-size: 15pt;
+  letter-spacing: 60pt;
+  line-height: 26pt;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 25px 38px -45px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 25px 38px -45px rgba(0, 0, 0, 0.35);
+  padding: 0;
+  padding-bottom: 15pt;
+  text-transform: uppercase;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 6%;
+}
+
+nav ul li {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  letter-spacing: 1.2pt;
+}
+
+nav ul li a {
+  color: #111111;
+  text-decoration: none;
+  margin: 0 1%;
+}
+
+nav #logo {
+  float: left;
+}
+
+nav #menu {
+  padding-top: 42pt;
+  text-align: center;
+}
+
+nav #icon_menu {
+  margin-left: 10pt;
+}
+
+nav #icon_menu img {
+  height: 16pt;
+}
+
+nav #icon_menu li .arrow {
+  height: 6pt;
+  margin-bottom: 4pt;
+}
+/*# sourceMappingURL=style.css.map */
