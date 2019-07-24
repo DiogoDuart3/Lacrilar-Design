@@ -18,50 +18,49 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 h1 h2 h3 h4 {
-  letter-spacing: 20pt;
+  letter-spacing: 20px;
 }
 
 h1 {
-  font-size: 40pt;
-  line-height: 50pt;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 h2 {
-  font-size: 37pt;
-  line-height: 49pt;
+  font-size: 37px;
+  line-height: 49px;
 }
 
 h3 {
-  font-size: 30pt;
-  line-height: 39pt;
+  font-size: 30px;
+  line-height: 39px;
 }
 
 h4 {
-  font-size: 20pt;
-  line-height: 29pt;
+  font-size: 20px;
+  line-height: 29px;
 }
 
 h5 {
-  font-size: 17pt;
-  letter-spacing: 100pt;
-  line-height: 26pt;
+  font-size: 17px;
+  letter-spacing: 100px;
+  line-height: 26px;
 }
 
 h6 {
-  font-size: 15pt;
-  letter-spacing: 60pt;
-  line-height: 26pt;
+  font-size: 15px;
+  letter-spacing: 6px;
+  line-height: 26px;
 }
 
 nav {
   overflow: hidden;
-  position: fixed;
   top: 0;
   width: 100%;
   -webkit-box-shadow: 0px 25px 38px -45px rgba(0, 0, 0, 0.35);
           box-shadow: 0px 25px 38px -45px rgba(0, 0, 0, 0.35);
   padding: 0;
-  padding-bottom: 15pt;
+  padding-bottom: 15px;
   text-transform: uppercase;
 }
 
@@ -70,42 +69,64 @@ nav ul {
   list-style-type: none;
   list-style-type: none;
   margin: 0;
-  padding: 0 6%;
+  padding: 0 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav ul li {
   display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 11pt;
-  letter-spacing: 1.2pt;
+  font-size: 12px;
+  letter-spacing: 1.2px;
 }
 
 nav ul li a {
   color: #111111;
   text-decoration: none;
-  margin: 0 1%;
+  margin: 0 10px;
 }
 
 nav #logo {
   float: left;
 }
 
-nav #menu {
-  padding-top: 42pt;
-  text-align: center;
+nav .menu {
+  margin: auto;
 }
 
-nav #icon_menu {
-  margin-left: 10pt;
+nav .icon_menu {
+  margin-left: 40px;
 }
 
-nav #icon_menu img {
-  height: 16pt;
+nav .icon_menu img {
+  height: 16px;
 }
 
-nav #icon_menu li .arrow {
-  height: 6pt;
-  margin-bottom: 4pt;
+nav .icon_menu li .arrow {
+  height: 8px;
+  margin-bottom: 4px;
+}
+
+nav .icon_menu h6 {
+  letter-spacing: 3px;
+  display: inline-block;
+  -webkit-transform: translate(-32px, -5px);
+          transform: translate(-32px, -5px);
+  font-size: 13px;
+}
+
+nav .vl {
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  height: 23px;
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
